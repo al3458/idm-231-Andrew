@@ -1,0 +1,76 @@
+button {
+    padding: 0px;
+    border: 0px;
+}
+
+#wanda {
+    background-image: url(wanda.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#vision {
+    background-image: url(Vision.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#captainAmerica {
+    background-image: url(captainAmerica.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#ironMan {
+    background-image: url(TonyStank.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#doctorStrange {
+    background-image: url(Doctor_Strange.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#blackWidow {
+    background-image: url(Black\ widow.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#spiderMan {
+    background-image: url(spiderman.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#hulk {
+    background-image: url(hulk.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#thor {
+    background-image: url(thor.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#hawkeye {
+    background-image: url(Hawkeye.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#blackPanther {
+    background-image: url(BlackPanther.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#starLord {
+    background-image: url(Star-Lord.jpg);
+    background-size: cover;
+    background-position: center;
+}
