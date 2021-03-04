@@ -1,10 +1,12 @@
 button {
     padding: 0px;
     border: 0px;
+    margin: 0px;
+    outline: 0px;
 }
 
 #wanda {
-    background-image: url(wanda.jpeg);
+    background-image: url(wandaCropped.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -16,61 +18,61 @@ button {
 }
 
 #captainAmerica {
-    background-image: url(captainAmerica.jpeg);
+    background-image: url(captainAmericaCropped.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #ironMan {
-    background-image: url(TonyStank.jpeg);
+    background-image: url(TonyStankCropped.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #doctorStrange {
-    background-image: url(Doctor_Strange.jpg);
+    background-image: url(Doctor_StrangeCropped.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #blackWidow {
-    background-image: url(Black\ widow.jpeg);
+    background-image: url(Black_widowCropped.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #spiderMan {
-    background-image: url(spiderman.jpeg);
+    background-image: url(spidermanCropped.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #hulk {
-    background-image: url(hulk.jpeg);
+    background-image: url(hulkCropped.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #thor {
-    background-image: url(thor.jpeg);
+    background-image: url(thorCropped.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #hawkeye {
-    background-image: url(Hawkeye.jpg);
+    background-image: url(HawkeyeCropped.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #blackPanther {
-    background-image: url(BlackPanther.jpeg);
+    background-image: url(BlackPantherCropped.jpg);
     background-size: cover;
     background-position: center;
 }
 
 #starLord {
-    background-image: url(Star-Lord.jpg);
+    background-image: url(Star-LordCropped.jpg);
     background-size: cover;
     background-position: center;
 }
