@@ -1,8 +1,47 @@
+body {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: black;
+}
+
+.Marvel {
+    display: flex;
+}
+
 button {
     padding: 0px;
     border: 0px;
     margin: 0px;
     outline: 0px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+.avenger_picture {
+    display: flex;
+    float: left;
+}
+
+.avenger_picture2 {
+    display: flex;
+    float: right;
+}
+
+p {
+    margin-top: 50%;
+}
+
+.selection {
+    background-image: url(Thanos.jpg);
+    background-position: center;
+    text-align: center;
+    width: 20%;
+    display: flex;
+    text-align: center;
 }
 
 #wanda {
