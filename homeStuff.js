@@ -125,7 +125,7 @@ function fade2Content() {
 
       case 'vision':
         // displayObj.src = 'img/ful_scorpio.png';
-        zDisplayObj.src = 'vision.jpg';
+        zDisplayObj.src = 'Vision.jpg';
         // display title
         zTitleObj.innerHTML = 'VISION';
         // display date range
@@ -173,7 +173,7 @@ function fade2Content() {
 
         case 'doctorStrange':
         // displayObj.src = 'img/ful_aquarius.png';
-        zDisplayObj.src = 'doctor_Strange.jpg';
+        zDisplayObj.src = 'Doctor_Strange.jpg';
         // display title
         zTitleObj.innerHTML = 'DOCTOR STRANGE';
         // display date range
