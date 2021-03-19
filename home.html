@@ -10,13 +10,78 @@
 </head>
 <body>
 
-    <div class="Marvel" style="width: 100%;">
-        <button class="avenger_picture" id="wanda" style="width: 6.66666667%; height: 100vh;"></button><button class="avenger_picture" id="vision" style="width: 6.66666667%; height: 100vh;"></button><button class="avenger_picture" id="captainAmerica" style="width: 6.66666667%; height: 100vh;"></button><button class="avenger_picture" id="ironMan" style="width: 6.66666667%; height: 100vh;"></button><button class="avenger_picture" id="doctorStrange" style="width: 6.66666667%; height: 100vh;"></button><button class="avenger_picture" id="blackWidow" style="width: 6.66666667%; height: 100vh;"></button>
-                <div class="selection">
-                    <p>You Are Inevitable</p>
+    <audio id="sndWanda" src="wandaAud.mp3" preload="auto"></audio>
+    <audio id="sndVision" src="visionAud.mp3" preload="auto"></audio>
+    <audio id="sndCap" src="captainAmericaAud.mp3" preload="auto"></audio>
+    <audio id="sndIron" src="ironManAud.mp3" preload="auto"></audio>
+    <audio id="sndDoctor" src="doctorStrangeAud.mp3" preload="auto"></audio>
+    <audio id="sndWidow" src="widowAud.mp3" preload="auto"></audio>
+    <audio id="sndSpider" src="spidermanAud.mp3" preload="auto"></audio>
+    <audio id="sndHulk" src="hulkAud.mp3" preload="auto"></audio>
+    <audio id="sndThor" src="thorAud.mp3" preload="auto"></audio>
+    <audio id="sndHawk" src="hawkeyeAud.mp3" preload="auto"></audio>
+    <audio id="sndPanther" src="blackPantherAud.mp3" preload="auto"></audio>
+    <audio id="sndStar" src="starLordAud.mp3" preload="auto"></audio>
+    <audio id="sndThanos" src="thanosAud.mp3" preload="auto"></audio>
+
+    <div id="wrapper">
+        <div class="Marvel" style="width: 100%;">
+            <button class="avenger_picture" id="wanda" style="width: 6.66666667%; height: 100vh;"></button>
+            <button class="avenger_picture" id="vision" style="width: 6.66666667%; height: 100vh;"></button>
+            <button class="avenger_picture" id="captainAmerica" style="width: 6.66666667%; height: 100vh;"></button>
+            <button class="avenger_picture" id="ironMan" style="width: 6.66666667%; height: 100vh;"></button>
+            <button class="avenger_picture" id="doctorStrange" style="width: 6.66666667%; height: 100vh;"></button>
+            <button class="avenger_picture" id="blackWidow" style="width: 6.66666667%; height: 100vh;"></button>
+                <div id="selection">
+                    <p id="textMain">YOU ARE INEVITABLE</p>
+                    <p><input id="bday" type="date"></p>
+                    <button id="userSubmit">SUBMIT</button>
+                    <button id="help">HELP</button>
                 </div>   
-        <button class="avenger_picture2" id="spiderMan" style="width: 6.66666667%; height: 100vh;"></button><button class="avenger_picture2" id="hulk" style="width: 6.66666667%; height: 100vh;"></button><button class="avenger_picture2" id="thor" style="width: 6.66666667%; height: 100vh;"></button><button class="avenger_picture2" id="hawkeye" style="width: 6.66666667%; height: 100vh;"></button><button class="avenger_picture2" id="blackPanther" style="width: 6.66666667%; height: 100vh;"></button><button class="avenger_picture2" id="starLord" style="width: 6.66666667%; height: 100vh;"></button>
+            <button class="avenger_picture2" id="spiderMan" style="width: 6.66666667%; height: 100vh;"></button>
+            <button class="avenger_picture2" id="hulk" style="width: 6.66666667%; height: 100vh;"></button>
+            <button class="avenger_picture2" id="thor" style="width: 6.66666667%; height: 100vh;"></button>
+            <button class="avenger_picture2" id="hawkeye" style="width: 6.66666667%; height: 100vh;"></button>
+            <button class="avenger_picture2" id="blackPanther" style="width: 6.66666667%; height: 100vh;"></button>
+            <button class="avenger_picture2" id="starLord" style="width: 6.66666667%; height: 100vh;"></button>
+        </div>
+      </div>
+      <!-- Custom modal -->
+   <div id="modal" class="modal" hidden>
+    <div class="modal-body">
+      <div class="modal-content">
+        <div>
+          <img id="zDisplayImg" src="tanos.jpg" alt="blank">
+        </div>
+        <p id="DateRange"><span id="zTitle">Title</span> <br> <span id="zDateRange">Date Range</span></p>
+        <div id="zMoreInfo">
+          <p">Object description</p>
+        </div>
+        <button id="btn-modal-close" class="toggle-modal">CLOSE</button>
+      </div>
     </div>
+    <div class="blanket"></div>
+  </div>
+
+    <!-- <div class="Marvel" style="width: 100%;">
+        <button class="avenger_picture" id="wanda" style="width: 6.66666667%; height: 100vh;"></button>
+        <button class="avenger_picture" id="vision" style="width: 6.66666667%; height: 100vh;"></button>
+        <button class="avenger_picture" id="captainAmerica" style="width: 6.66666667%; height: 100vh;"></button>
+        <button class="avenger_picture" id="ironMan" style="width: 6.66666667%; height: 100vh;"></button>
+        <button class="avenger_picture" id="doctorStrange" style="width: 6.66666667%; height: 100vh;"></button>
+        <button class="avenger_picture" id="blackWidow" style="width: 6.66666667%; height: 100vh;"></button>
+            <div id="selection">
+                <p id="textMain">YOU ARE INEVITABLE</p>
+                <p><input id="bday" type="date"></p>
+                <p><button id="userSubmit">SUBMIT</button></p>
+            </div>   
+        <button class="avenger_picture2" id="spiderMan" style="width: 6.66666667%; height: 100vh;"></button>
+        <button class="avenger_picture2" id="hulk" style="width: 6.66666667%; height: 100vh;"></button>
+        <button class="avenger_picture2" id="thor" style="width: 6.66666667%; height: 100vh;"></button>
+        <button class="avenger_picture2" id="hawkeye" style="width: 6.66666667%; height: 100vh;"></button>
+        <button class="avenger_picture2" id="blackPanther" style="width: 6.66666667%; height: 100vh;"></button>
+        <button class="avenger_picture2" id="starLord" style="width: 6.66666667%; height: 100vh;"></button>
+    </div> -->
     <script src="homeStuff.js"></script>
 </body>
 </html>
